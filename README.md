@@ -158,10 +158,6 @@ By doing this project, I gained hands-on experience with:
 
 ## Author
 
-**Naveen G** – Implemented this project to learn RAG, embeddings, and local vector search.
+**Naveen G** 
 
----
 
-If you want, I can also **write a ready-to-use `requirements.txt`** for this exact setup and add **LinkedIn-style badges** to make your GitHub repo look more professional.
-
-Do you want me to do that?
