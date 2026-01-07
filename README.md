@@ -68,10 +68,6 @@ source venv/bin/activate
 
 3. **Install dependencies**:
 
-```bash
-pip install -r requirements.txt
-```
-
 > I used `langchain`, `faiss-cpu`, and `sentence-transformers` for this project.
 
 ---
