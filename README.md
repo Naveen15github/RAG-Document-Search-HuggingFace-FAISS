@@ -34,6 +34,13 @@ rag-project/
 │
 └─ README.md               # Project documentation
 ```
+## How I Implemented It
+
+1. **Load Document**: I read the content of `notes.txt` using Python’s `open()` function.
+2. **Chunking**: I split the document into chunks of 300 characters with 50-character overlap using `CharacterTextSplitter` from LangChain.
+3. **Embedding**: I generated embeddings for each chunk using HuggingFace’s `all-MiniLM-L6-v2`.
+4. **Vector Store**: I built a FAISS vector store to store embeddings for fast similarity search.
+5. **Query Search**: When I input a query, it is transformed into an embedding and matched against the vector store.
 
 ---
 
@@ -97,17 +104,6 @@ that normally require human intelligence.
 
 ---
 
-## How I Implemented It
-
-1. **Load Document**: I read the content of `notes.txt` using Python’s `open()` function.
-2. **Chunking**: I split the document into chunks of 300 characters with 50-character overlap using `CharacterTextSplitter` from LangChain.
-3. **Embedding**: I generated embeddings for each chunk using HuggingFace’s `all-MiniLM-L6-v2`.
-4. **Vector Store**: I built a FAISS vector store to store embeddings for fast similarity search.
-5. **Query Search**: When I input a query, it is transformed into an embedding and matched against the vector store.
-6. **Result Handling**: I check if any result is returned; if not, I print a friendly message “Information not available in the documents.”
-
----
-
 ## Example
 
 **Document (`notes.txt`)**:
@@ -142,7 +138,7 @@ By doing this project, I gained hands-on experience with:
 * Splitting documents into smaller chunks for better retrieval.
 * Indexing and searching with **FAISS**.
 * Building a basic **RAG pipeline** locally.
-* Handling cases when the information is missing from documents.
+
 
 ---
 
