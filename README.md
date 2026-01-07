@@ -2,11 +2,10 @@
 
 ## Overview
 
-![Alt text](https://github.com/Naveen15github/RAG-Document-Search-HuggingFace-FAISS-/blob/9e7396347ed65e44163f912e848b5beb287f2290/Gemini_Generated_Image_651g4j651g4j651g.png)
-
 In this Mini project, I built a **Retrieval-Augmented Generation (RAG)** system that allows me to **search my documents locally** using embeddings, without relying on any paid APIs. I implemented it fully myself, using a text file as the source, splitting it into chunks, embedding the chunks with a HuggingFace model, and searching for relevant content with **FAISS vector search**.
-
 This project helped me understand **RAG, embeddings, and vector-based search**, and everything works fully offline.
+
+![Alt text](https://github.com/Naveen15github/RAG-Document-Search-HuggingFace-FAISS-/blob/9e7396347ed65e44163f912e848b5beb287f2290/Gemini_Generated_Image_651g4j651g4j651g.png)
 
 ---
 
